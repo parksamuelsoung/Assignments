@@ -10,10 +10,12 @@ public class SceneController {
 	private SceneService sceneService = new SceneService();
 	private Scanner scanner = new Scanner(System.in);
 	
-	public void getScene() {
+	public void startScene() {
 		Scene startScene = sceneService.getScene("a");
 		System.out.println(startScene);
-		
+	}
+	
+	public void playScenes() {
 		System.out.print(">");
 		String sceneSetChoice = scanner.nextLine();
 		

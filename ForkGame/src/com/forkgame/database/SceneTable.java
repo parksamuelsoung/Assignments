@@ -16,10 +16,10 @@ public class SceneTable {
 						"0a",
 						"Start Game\n",
 						"Mission Impeccable\n",
-						"a) start now\n"),
+						"a) start now"),
 				new Scene(sceneId++,
 						"1a",
-						"Spaghetti LeftOvers\n",
+						"Spaghetti Leftovers\n",
 						"You were left in a bowl of spagetti leftovers.\n" +
 						"Your host family is sound asleep now.\n",
 						"a) shake off the spaghetti\n" +
@@ -44,5 +44,6 @@ public class SceneTable {
 	public ArrayList<Scene> getScenes() {
 		return scenes;
 	}
+	
 
 }
